@@ -1,0 +1,12 @@
+.daterangepicker td.disabled, .daterangepicker option.disabled {
+  text-decoration: none;
+}
+
+.daterangepicker {
+  select.monthselect {
+    width: 45%;
+  }
+}
+.daterangepicker td.active, .daterangepicker td.active:hover {
+  background-color: $primary;
+}

@@ -1,0 +1,12 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+<Files ~ "\.(env|env.example|gitignore|json|lock)$">
+order allow,deny
+deny from all
+</Files>
+php_value post_max_size 300M
+php_value upload_max_filesize 200M
+php_value memory_limit 512M

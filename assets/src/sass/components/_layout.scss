@@ -1,0 +1,218 @@
+body {
+  overflow-x: hidden;
+  line-height: 1.4;
+}
+
+.main-panel {
+  min-height: calc(100% - 60px);
+  display: flex;
+  flex-direction: column;
+}
+
+.content-wrapper {
+  padding: 1rem;
+  width: 100%;
+  flex: 1 0 auto;
+}
+
+.nav-item {
+	&:hover, &.active {
+	  background-color: lighten($primary, 20%);
+
+	  > .nav-link {
+		color: $primary;
+	  }
+	}
+
+	&.dropdown {  
+		.count-indicator {
+		  position: relative;
+		  text-align: center;
+  
+		  i {
+			font-size: 21px;
+			margin-right: 0;
+			vertical-align: middle;
+		  }
+  
+		  .count {
+			position: absolute;
+			left: 50%;
+			width: 1rem;
+			height: 1rem;
+			border-radius: 100%;
+			background: #FF0017;
+			color: $white;
+			font-size: 11px;
+			top: -1px;
+			font-weight: 600;
+			line-height: 1rem;
+			border: none;
+			text-align: center;
+		  }
+  
+		  &:after {
+			display: none;
+		  }
+		}
+	}
+  }
+
+#sidebar-wrapper {
+  width: 240px;
+  min-height: 100vh;
+  margin-left: -15rem;
+  transition: margin .25s ease-out;
+
+  > .nav {
+	box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  }
+
+  .nav-item {
+	&:hover, &.active {
+	  background-color: lighten($primary, 46%);
+
+	  > .nav-link {
+		color: $primary;
+	  }
+	}
+  }
+
+  .nav-title {
+	@include display-flex;
+	@include align-items(center);
+	padding: 0.6rem 1.25rem 0.6rem 1.25rem;
+	font-size: 0.8rem;
+	color: $body-color-secondary;
+	letter-spacing: 1px;
+  }
+
+  .nav-link {
+	@include display-flex;
+	@include align-items(center);
+	color: $body-color;
+	transition-property: color;
+	padding: 0.6rem 1.25rem 0.6rem 1.25rem;
+	outline: none;
+	font-size: 0.97rem;
+
+	.menu-icon {
+	  margin-right: 0.8rem;
+	}
+
+	.menu-arrow {
+	  display: inline-block;
+	  -webkit-font-smoothing: antialiased;
+	  -moz-osx-font-smoothing: grayscale;
+	  margin-left: auto;
+	  margin-right: 0;
+
+	  &:before {
+		content: "\F0140";
+		font-family: "Material Design Icons";
+		font-style: normal;
+		display: block;
+		font-size: 1rem;
+		line-height: 10px;
+		@include transition(all .2s ease-in);
+	  }
+	}
+
+	&[aria-expanded="true"] .menu-arrow::before {
+	  transform: rotate(180deg);
+	}
+  }
+
+  .nav {
+	overflow: hidden;
+
+	&.sub-menu {
+	  margin-bottom: 0;
+	  margin-top: 0;
+	  list-style: none;
+	  padding: 0 0 0.5rem 2rem;
+
+	  .nav-item {
+		.nav-link {
+		  padding: 0.5rem 1rem;
+		  font-size: 0.95rem;
+		  line-height: 1;
+		}
+	  }
+	}
+  }
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+  height: 59px;
+}
+
+#page-content-wrapper {
+  min-width: 100%;
+
+  > .navbar {
+	height: 60px;
+
+	.nav-link {
+	  font-size: 0.9rem;
+	  outline: none;
+	}
+  }
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+
+h5, .h5 {
+  font-size: 1.1rem;
+}
+
+@media (max-width: 767px) {
+  .navbar-notification {
+	position: static;
+  }
+
+  .navbar-dropdown-notification {
+	width: calc(100% - 40px);
+	left: 20px;
+	right: 20px;
+	top: 60px;
+  }
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+	margin-left: 0;
+  }
+
+  #page-content-wrapper {
+	min-width: 0;
+	width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+	margin-left: -15rem;
+  }
+
+  .navbar-dropdown-notification {
+	min-width: 18rem;
+  }
+
+  h5, .h5 {
+	font-size: 1.15rem;
+  }
+}
+
+.footer {
+  padding: 1.5rem;
+  border-top: 1px solid $border-color;
+  font-size: calc(0.875rem - 0.05rem);
+}
+
+p, .text-base {
+  font-size: 0.875rem;
+}
