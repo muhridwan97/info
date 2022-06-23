@@ -29,7 +29,7 @@
 .entry-month{
   background-attachment: scroll;
   background-clip: border-box;
-  background-color: rgb(53, 57, 68);
+  background-color: rgb(66, 88, 160);
   background-image: none;
   background-origin: padding-box;
   background-position: 0px 0px;
@@ -53,7 +53,7 @@
 .entry-date{
   background-attachment: scroll;
   background-clip: border-box;
-  background-color: rgb(155, 157, 164);
+  background-color: rgb(118, 139, 207);
   background-image: none;
   background-origin: padding-box;
   background-position: 0% 0%;
@@ -76,7 +76,7 @@
   padding-right: 0px;
   padding-top: 12px;
   text-align: center;
-  text-shadow: rgb(53, 57, 68) 1px 1px 0px, rgb(53, 57, 68) 2px 2px 0px, rgb(53, 57, 68) 3px 3px 0px, rgb(53, 57, 68) 4px 4px 0px, rgb(53, 57, 68) 5px 5px 0px, rgb(53, 57, 68) 6px 6px 0px, rgb(53, 57, 68) 7px 7px 0px, rgb(53, 57, 68) 8px 8px 0px, rgb(53, 57, 68) 9px 9px 0px, rgb(53, 57, 68) 10px 10px 0px, rgb(53, 57, 68) 11px 11px 0px, rgb(53, 57, 68) 12px 12px 0px, rgb(53, 57, 68) 13px 13px 0px, rgb(53, 57, 68) 14px 14px 0px, rgb(53, 57, 68) 15px 15px 0px, rgb(53, 57, 68) 16px 16px 0px, rgb(53, 57, 68) 17px 17px 0px, rgb(53, 57, 68) 18px 18px 0px, rgb(53, 57, 68) 19px 19px 0px, rgb(53, 57, 68) 20px 20px 0px, rgb(53, 57, 68) 21px 21px 0px, rgb(53, 57, 68) 22px 22px 0px, rgb(53, 57, 68) 23px 23px 0px, rgb(53, 57, 68) 24px 24px 0px, rgb(53, 57, 68) 25px 25px 0px, rgb(53, 57, 68) 26px 26px 0px, rgb(53, 57, 68) 27px 27px 0px, rgb(53, 57, 68) 28px 28px 0px, rgb(53, 57, 68) 29px 29px 0px, rgb(53, 57, 68) 30px 30px 0px, rgb(53, 57, 68) 31px 31px 0px, rgb(53, 57, 68) 32px 32px 0px, rgb(53, 57, 68) 33px 33px 0px, rgb(53, 57, 68) 34px 34px 0px, rgb(53, 57, 68) 35px 35px 0px, rgb(53, 57, 68) 36px 36px 0px, rgb(53, 57, 68) 37px 37px 0px, rgb(53, 57, 68) 38px 38px 0px, rgb(53, 57, 68) 39px 39px 0px, rgb(53, 57, 68) 40px 40px 0px, rgb(53, 57, 68) 41px 41px 0px, rgb(53, 57, 68) 42px 42px 0px, rgb(53, 57, 68) 43px 43px 0px, rgb(53, 57, 68) 44px 44px 0px, rgb(53, 57, 68) 45px 45px 0px, rgb(53, 57, 68) 46px 46px 0px, rgb(53, 57, 68) 47px 47px 0px, rgb(53, 57, 68) 48px 48px 0px, rgb(53, 57, 68) 49px 49px 0px, rgb(53, 57, 68) 50px 50px 0px, rgb(53, 57, 68) 51px 51px 0px, rgb(53, 57, 68) 52px 52px 0px, rgb(53, 57, 68) 53px 53px 0px, rgb(53, 57, 68) 54px 54px 0px, rgb(53, 57, 68) 55px 55px 0px, rgb(53, 57, 68) 56px 56px 0px, rgb(53, 57, 68) 57px 57px 0px, rgb(53, 57, 68) 58px 58px 0px;
+  text-shadow: rgb(66, 88, 160) 1px 1px 0px, rgb(66, 88, 160) 2px 2px 0px, rgb(66, 88, 160) 3px 3px 0px, rgb(66, 88, 160) 4px 4px 0px, rgb(66, 88, 160) 5px 5px 0px, rgb(66, 88, 160) 6px 6px 0px, rgb(66, 88, 160) 7px 7px 0px, rgb(66, 88, 160) 8px 8px 0px, rgb(66, 88, 160) 9px 9px 0px, rgb(66, 88, 160) 10px 10px 0px, rgb(66, 88, 160) 11px 11px 0px, rgb(66, 88, 160) 12px 12px 0px, rgb(66, 88, 160) 13px 13px 0px, rgb(66, 88, 160) 14px 14px 0px, rgb(66, 88, 160) 15px 15px 0px, rgb(66, 88, 160) 16px 16px 0px, rgb(66, 88, 160) 17px 17px 0px, rgb(66, 88, 160) 18px 18px 0px, rgb(66, 88, 160) 19px 19px 0px, rgb(66, 88, 160) 20px 20px 0px, rgb(66, 88, 160) 21px 21px 0px, rgb(66, 88, 160) 22px 22px 0px, rgb(66, 88, 160) 23px 23px 0px, rgb(66, 88, 160) 24px 24px 0px, rgb(66, 88, 160) 25px 25px 0px, rgb(66, 88, 160) 26px 26px 0px, rgb(66, 88, 160) 27px 27px 0px, rgb(66, 88, 160) 28px 28px 0px, rgb(66, 88, 160) 29px 29px 0px, rgb(66, 88, 160) 30px 30px 0px, rgb(66, 88, 160) 31px 31px 0px, rgb(66, 88, 160) 32px 32px 0px, rgb(66, 88, 160) 33px 33px 0px, rgb(66, 88, 160) 34px 34px 0px, rgb(66, 88, 160) 35px 35px 0px, rgb(66, 88, 160) 36px 36px 0px, rgb(66, 88, 160) 37px 37px 0px, rgb(66, 88, 160) 38px 38px 0px, rgb(66, 88, 160) 39px 39px 0px, rgb(66, 88, 160) 40px 40px 0px, rgb(66, 88, 160) 41px 41px 0px, rgb(66, 88, 160) 42px 42px 0px, rgb(66, 88, 160) 43px 43px 0px, rgb(66, 88, 160) 44px 44px 0px, rgb(66, 88, 160) 45px 45px 0px, rgb(66, 88, 160) 46px 46px 0px, rgb(66, 88, 160) 47px 47px 0px, rgb(66, 88, 160) 48px 48px 0px, rgb(66, 88, 160) 49px 49px 0px, rgb(66, 88, 160) 50px 50px 0px, rgb(66, 88, 160) 51px 51px 0px, rgb(66, 88, 160) 52px 52px 0px, rgb(66, 88, 160) 53px 53px 0px, rgb(66, 88, 160) 54px 54px 0px, rgb(66, 88, 160) 55px 55px 0px, rgb(66, 88, 160) 56px 56px 0px, rgb(66, 88, 160) 57px 57px 0px, rgb(66, 88, 160) 58px 58px 0px;
   width: 73px;
 }
 .dropdown-submenu {
@@ -147,17 +147,17 @@
   width: 100%;
 }
 #navbar-outer-up{
-  border-radius : 0px;
-  background-color :#92a1a7;
-  border : none;
-  min-height : 10px;
-  margin-bottom:0px;
+	border-radius : 0px;
+	background-color :#647bb1;
+	border : none;
+	min-height : 10px;
+	margin-bottom:0px;
 }
 
 .icon-navbar-up{
-  margin-right:5px;
-  margin-left:5px;
-  color:yellow;
+	margin-right:5px;
+	margin-left:5px;
+	color:yellow;
 }
 .flag{
   width: 13px;
@@ -209,27 +209,27 @@
 }
 #nav-header-up
 {
-  width:100%;
-  text-align:right;
+	width:100%;
+	text-align:right;
 }
 #logo{
-  height : 136px;
-  width : 140px;
-  margin-top:0px;
-  margin-right:20px;
-  margin-left:20px;
+	height : 136px;
+	width : 140px;
+	margin-top:0px;
+	margin-right:20px;
+	margin-left:20px;
 }
 #navbar-title-bottom{
-  padding:0px;
+	padding:0px;
 
 }
 
 #navbar-outer-bottom{
-  border-radius : 0px;
-  background-color : #6a7e83;
-  border : none;
-  min-height:65px;
-  margin-bottom:0px;
+	border-radius : 0px;
+	background-color : #7790CC;
+	border : none;
+	min-height:65px;
+	margin-bottom:0px;
 }
 .navbar-inverse .navbar-toggle
 {
@@ -243,23 +243,23 @@
 
 }
 #myNavbar .menu-nav-bottom .active > a{
-  background-color:#f1f1f1;
-  color: #29CC6D;
-  font-weight : bold
+	background-color:#f1f1f1;
+	color: #29CC6D;
+	font-weight : bold
 }
 @media (min-width: 768px){
-  #myNavbar .menu-nav-bottom > li > a{
+	#myNavbar .menu-nav-bottom > li > a{
 
 
-    padding-top:20px;
-    padding-bottom:20px;
-  }
+		padding-top:20px;
+		padding-bottom:20px;
+	}
  #wrap-putih{
   background-color: #fafbfc;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
   margin-top:20px;
-  border-bottom: 3px solid #30332b
+  border-bottom: 3px solid #4a5674
 }
 }
 @media (max-width: 1199px) and (min-width: 768px){
@@ -269,8 +269,8 @@
   }
 }
 #myNavbar .menu-nav-bottom > li > a:hover{
-  color:#555;
-  background-color : #f1f1f1
+	color:#577ccf;
+	background-color : #f1f1f1
 }
 @media (max-width: 768px){
   #myNavbar .menu-nav-bottom > li > a{
@@ -278,7 +278,7 @@
   }
 }
 .glyphicon-home{
-  margin-right:5px
+	margin-right:5px
 }
 
 .navbar-nav > li > form {
@@ -470,7 +470,7 @@
 
 /* popular post */
 #popular-wrap{
-  padding-top:300px;
+	padding-top:300px;
 }
 @media (max-width: 991px) {
   #popular-wrap{
@@ -493,11 +493,11 @@
   }
 }
 #popular-wrap-bottom{
-  background:url("../img/qw.png") no-repeat bottom;
-  padding-left:15px;
-  padding-right:15px;
-  width:100%;
-  padding-bottom:120px;
+	background:url("../img/qw.png") no-repeat bottom;
+	padding-left:15px;
+	padding-right:15px;
+	width:100%;
+	padding-bottom:120px;
   padding-top: 40px;
 }
 @media (max-width: 991px) {
@@ -512,11 +512,11 @@
 }
 }
 .title-section{
-  font-family:"Montserrat",Helvetica,Arial,sans-serif;
-  color: #52564E;
-  text-align:center;
-  font-weight:bold;
-  margin-bottom:2px;
+	font-family:"Montserrat",Helvetica,Arial,sans-serif;
+	color: #4258A0;
+	text-align:center;
+	font-weight:bold;
+	margin-bottom:2px;
   margin-top:60px
 }
 @media screen and (max-width: 936px) {
@@ -538,7 +538,7 @@
   margin-right: auto;
 }
 .img-popular{
-  height:240px
+	height:240px
 }
 @media screen and (max-width: 1199px) {
 
@@ -602,21 +602,21 @@
 
 }
 .title-post-popular{
-  color: #15331E;
+	color: #4258A0;
   margin-bottom: 15px;
   font-family: 'Titillium Web', sans-serif;
   line-height: 1.2em;
 }
 .title-post-popular:hover{
-  color: #264C36;
-  text-decoration:none
+	color: #264C36;
+	text-decoration:none
 
 }
 
 /* kegiatan */
 #activity{
-  background-color: #40C276;
-  padding-bottom: 30px;
+	background-color: #40C276;
+	padding-bottom: 30px;
 }
 
 
@@ -993,7 +993,7 @@
 #footer{
   width: 100%;
   padding:50px 0px;
-  background-color :#6a7e83;
+  background-color :#7790CC;
   overflow: auto
 }
 .footer-text
@@ -1066,49 +1066,49 @@
 }
 #copyright{
   width: 100%;
-  background-color :#92a1a7;
+  background-color :#647bb1;
   padding: 5px 15px;
 }
 
 /* scroll top */
 .scrolltop {
-  display:none;
-  width:100%;
-  margin:0 auto;
-  position:fixed;
-  bottom:20px;
-  right:10px;
+	display:none;
+	width:100%;
+	margin:0 auto;
+	position:fixed;
+	bottom:20px;
+	right:10px;
 }
 .scroll {
-  position:absolute;
-  right:20px;
-  bottom:20px;
-  background:rgb(165, 193, 234);
-  padding:15px;
-  text-align: center;
-  margin: 0 0 0 0;
-  cursor:pointer;
-  transition: 0.5s;
-  -moz-transition: 0.5s;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
+	position:absolute;
+	right:20px;
+	bottom:20px;
+	background:rgb(165, 193, 234);
+	padding:15px;
+	text-align: center;
+	margin: 0 0 0 0;
+	cursor:pointer;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
 }
 .scroll:hover {
-  background:rgba(178,178,4,1.0);
-  transition: 0.5s;
-  -moz-transition: 0.5s;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
+	background:rgba(178,178,4,1.0);
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
 }
 .scroll:hover .glyphicon-eject {
-  padding-top:-10px;
+	padding-top:-10px;
 }
 .scroll .glyphicon-eject {
-  font-size:25px;
-  transition: 0.5s;
-  -moz-transition: 0.5s;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
+	font-size:25px;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
   color: #b2b2b2
 }
 @media screen and (max-width: 768px) {
@@ -1300,7 +1300,7 @@
 #post-populer-sidebar-list > li > a{
  text-decoration: none;
  line-height: 32px;
- color: #333024;
+ color: #4B4799;
 }
 #post-populer-sidebar-list > li > a:hover{
  color: #555;

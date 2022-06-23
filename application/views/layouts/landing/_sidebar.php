@@ -6,7 +6,7 @@ $segment2 = $this->uri->segment(2);
 <div id="wrap-sidebar-single" class="col-md-3">
     <div id="populer-wrap" class="col-md-12 col-sm-6">
         <div class="title-sidebar">
-            <h4 style="color:#555">
+            <h4 style="color:#6072BC">
                 <span class="glyphicon glyphicon-file"></span>
                 <b>POST</b> POPULER
             </h4>

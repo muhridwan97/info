@@ -1,7 +1,7 @@
 {
-  "name": "FisikaSma",
+  "name": "Info",
   "version": "1.0.0",
-  "description": "FisikaSma management system",
+  "description": "Info management system",
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

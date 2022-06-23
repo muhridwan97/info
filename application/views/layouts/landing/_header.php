@@ -2,7 +2,7 @@
 	<div class="container">
 		<div id="nav-header-up" class="navbar-header">
 			<div id="navbar-title" class="navbar-brand" href="#">
-				<i class="glyphicon glyphicon-book icon-navbar-up"></i><b>KIMIA SMA MAHASISWA PKIM UIN SUNAN KALIJAGA</b>
+				<i class="glyphicon glyphicon-book icon-navbar-up"></i><b>INFO MAHASISWA PFIS UIN SUNAN KALIJAGA</b>
 			</div>
 
 		</div>
